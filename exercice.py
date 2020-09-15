@@ -17,7 +17,10 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    pass
+    for i in range(len(string)):
+        if a[i] is b:
+            a = a[ :i] + c + a[i+1:]
+    return a
 
 
 def get_number_of_char(string: str, char: str) -> int:
