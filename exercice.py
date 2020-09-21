@@ -32,9 +32,9 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    x = 1
+    x = 0
     for i in sentence:
-        if i is ' ':
+        if i is word:
             x += 1
     return x
 
