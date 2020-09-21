@@ -36,6 +36,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
     for i in sentence:
         if i is ' ':
             x += 1
+    return x
 
 
 def main() -> None:
