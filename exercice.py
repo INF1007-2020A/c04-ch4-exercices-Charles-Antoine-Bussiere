@@ -33,7 +33,7 @@ def get_number_of_char(string: str, char: str) -> int:
 
 def get_number_of_words(sentence: str, word: str) -> int:
     x = 0
-    
+    word
     for current_word in sentence:
         if current_word is word:
             x += 1
